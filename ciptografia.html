@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" type="text/css" href="criptografia.css">
+</head>
+<body>
+    <h1>Criptografia</h1>
+    <form id="Criptografar">
+        <label for ="entrada">Entrada:  </label> 
+        <input type="text" name="entrada" required>
+        <input type="submit", value="Criptografar">
+    </form>
+    <div>
+        
+        <div id="criptografado">
+            <p id="textoCriptografado"></p>
+        </div> 
+        <div id="descriptografar">
+            <label for ="saida">Deseja descriptografar?</label>
+            <input type="submit", value="Sim" id="btnDescriptografar">
+        </div>
+        <div id="TextoDescriptografado">
+         <p></p>
+        </div>
+    </div>
+    <script src="criptografia.js"></script>
+</body>
+</html>
